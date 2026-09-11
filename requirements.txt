@@ -1,0 +1,22 @@
+# Ecojindu Shuttle — Integrations & Agent Gateway
+# Python 3.11+
+
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.5
+pydantic-settings==2.7.1
+email-validator==2.2.0
+
+# Shared database (whatsapp_sessions live here)
+SQLAlchemy==2.0.37
+asyncpg==0.30.0
+greenlet==3.1.1
+
+# Talking to the backend, Twilio and Paystack
+httpx==0.28.1
+
+python-multipart==0.0.20
+
+# Tests
+pytest==8.3.4
+pytest-asyncio==0.25.2
